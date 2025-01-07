@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() { const path = document.querySelector('.rbt-back-circle path'); if (path) { const length = path.getTotalLength(); path.style.strokeDasharray = length; path.style.strokeDashoffset = length; } });
