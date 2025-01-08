@@ -32,7 +32,7 @@ const Testimonials = () => {
                     <div className="col-lg-12 mb--60">
                         <div className="section-title text-center">
                             <span className="subtitle bg-coral-opacity">TESTIMONIALS : EDUCATION FOR EVERYONE</span>
-                            <h2 className="title">Student's Feedback</h2>
+                            <h2 className="title">Student's Review</h2>
                         </div>
                     </div>
 

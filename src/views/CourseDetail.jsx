@@ -6,7 +6,7 @@ const CourseDetail = () => {
   return (
     <>
     
-      <div style={{ paddingTop: "200px" }}>
+      <div style={{ paddingTop: "120px" }}>
         <BreadCrumbArea />
         <CourseDetailArea />
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import BannerCard from './BannerCard'
+import VideoBar from './VideoBar'
 
 const Banner = () => {
     return (
@@ -8,15 +9,22 @@ const Banner = () => {
                 <div className="container">
 
                     {/* Body Badge */}
-                    <div className="row">
+                    <div className="row mb-5">
                         <div className="col-lg-12">
                             <div className="banner-content text-center">
                                 <div className="inner">
-                                    <div className="rbt-new-badge rbt-new-badge-one mb--30">
-                                        <span className="rbt-new-badge-icon">🏆</span> The Leader in Online Learning
+                                    <div className='row'>
+                                        <div className='col-lg-8'>
+                                        <div className="rbt-new-badge rbt-new-badge-one mb--30">
+                                            <span className="rbt-new-badge-icon">🏆</span> Planning a career?
+                                        </div>
+                                            <h1 className="title">Learn from <span className="theme-gradient">industry experts</span> with us </h1>
+                                        </div>
+                                        <div className='col-lg-4'>
+                                            New Items
+                                            <VideoBar />
+                                        </div>
                                     </div>
-                                    <h1 className="title">We teaching, educate and <span className="theme-gradient">build the
-                                        future</span> of online learning</h1>
                                 </div>
                             </div>
                         </div>
@@ -25,19 +33,22 @@ const Banner = () => {
 
                     {/* Cards */}
 
-                    <div className="swiper service-item-3-activation  rbt-arrow-between gutter-swiper-30">
+                    {/* <div className="swiper service-item-3-activation  rbt-arrow-between gutter-swiper-30">
 
-                        <div className="swiper-wrapper banner" >
+                        <div className="row swiper-wrapper banner" > */}
                             {/* cards Components */}
 
-                            <BannerCard label="React" num={1} />
-                            <BannerCard label="English" num={2} />
-                            <BannerCard label="Education" num={2} />
+                            {/* <BannerCard label="Step 1" text="Counselling The Institute" num={1} />
+                            <BannerCard label="Step 2" text="Get Admission" num={1} />
+                            <BannerCard label="Step 3" text="Physical Classes" num={1} />
+                            <BannerCard label="Step 4" text="Become Expert" num={1} /> */}
+                            {/* <BannerCard label="Step 5" num={1} />
+                            <BannerCard label="Step 6" num={1} /> */}
 
-                        </div>
+                        {/* </div> */}
 
 
-
+{/* 
                         <div className="rbt-swiper-arrow rbt-arrow-left">
                             <div className="custom-overfolow">
                                 <i className="rbt-icon feather-arrow-left"></i>
@@ -50,10 +61,10 @@ const Banner = () => {
                                 <i className="rbt-icon feather-arrow-right"></i>
                                 <i className="rbt-icon-top feather-arrow-right"></i>
                             </div>
-                        </div>
+                        </div> */}
 
 
-                    </div>
+                    {/* </div> */}
 
 
                 </div>

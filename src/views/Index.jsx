@@ -7,6 +7,7 @@ import Banner from "../components/index/startbanner/Banner"
 import TeamCatagory from "../components/index/team-catagory/TeamCatagory"
 import Testimonials from "../components/index/testimonial-catagory/Testimonials"
 import Brochure from "../components/index/brochure/Brocher"
+import SuccessGuide from "../components/index/startbanner/SuccessGuide"
 
 
 
@@ -18,15 +19,16 @@ const Index = () => {
             <div style={{ paddingTop :"100px"}}>
                 <Banner />
             </div>
-
+    
+            <SuccessGuide />
             <PopularCourses />
             <CourseCatagory />
-            <TeamCatagory />
+            <Brochure />
+            {/* <TeamCatagory /> */}
             <Testimonials />
             <EventCatagory />
             {/* <BlogCatagory /> */}
-            <Brochure />
-            <Footer />
+            {/* <Footer /> */}
     </>
   )
 }

@@ -3,7 +3,6 @@ import React from 'react'
 const CoursesLayoutItem = ({c1,c2,c3,c4,c5,c6}) => {
   return (
     <div className="col-lg-12 col-xl-6 col-xxl-6 single-mega-item">
-        <h3 className="rbt-short-title">Course Layout</h3>
         <ul className="mega-menu-item">
             <li><a href="course-filter-one-toggle.html">  {c1}</a></li>
             <li><a href="course-filter-one-open.html">    {c2}</a></li>
