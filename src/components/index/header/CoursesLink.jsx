@@ -19,7 +19,7 @@ const CoursesLink = () => {
                     </div> */}
                     </div>
                     <div className="row row--15">
-                        <h3 className="rbt-short-title text-center">Course Layout</h3>
+                        {/* <h3 className="rbt-short-title text-center">Course Layout</h3> */}
 
                         <CoursesLayoutItem c1="Web Development with Python Django"
                             c2="Graphics Designing"

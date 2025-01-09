@@ -251,6 +251,7 @@
   --gradient-9: linear-gradient(180deg, #FF0000 0%, #FFE5E5 100%);
   --gradient-10: linear-gradient(218.15deg, #ec3f3f 0%, #9d0606 100%);
   --gradient-11: linear-gradient(218.15deg, #bc5151 0%, #9e2e2e 100%);
+  --gradient-12: linear-gradient(218.15deg, #915d57 0%, #814740 50%, #843A32 100%);
 }
 
 /**
@@ -16918,7 +16919,7 @@ span.transparent-button:hover i {
 .rbt-service.rbt-service-2 .inner {
   display: flex;
   align-items: center;
-  justify-content: center;	
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -27364,7 +27365,7 @@ blockquote.has-text-align-right cite,
 }
 
 .rbt-banner-2 .banner-content .inner .title {
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 600;
   letter-spacing: -2.5px;
   max-width: 950px;
@@ -27375,7 +27376,7 @@ blockquote.has-text-align-right cite,
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .rbt-banner-2 .banner-content .inner .title {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
@@ -27409,7 +27410,8 @@ blockquote.has-text-align-right cite,
 
 .rbt-banner-2 .wrapper {
   padding-top: 50px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
+  padding-bottom: 50px;
 }
 
 /*-----------------------
@@ -32049,4 +32051,82 @@ Course Sidebar
 
 #upHeaderAhover {
   color: #000;
+}
+
+.rbt-hover-02.bg-no-shadow.card-bg-1.success-card {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.scroll-container {
+  overflow: hidden;
+  white-space: wrap;
+  width: 100%;
+}
+
+.scroll-content-left {
+  display: inline-block;
+  animation: scroll-left 15s linear infinite;
+}
+
+.scroll-content-right {
+  display: inline-block;
+  animation: scroll-right 15s linear infinite;
+}
+
+.scroll-content-left > *, .scroll-content-right > * {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing as needed */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.scroll-content-left:hover, .scroll-content-right:hover {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+
+.scroll-content-left > *:hover, .scroll-content-right > *:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+/* Admind PAnel TAble */
+.table thead th, .table tbody td {
+  border: none; /* Remove top borders */
+  border-bottom: 1px solid #dee2e6; /* Add bottom border */
+  vertical-align: middle; /* Vertically center text */
+  text-align: center; /* Horizontally center text */
+}
+
+.table tbody tr {
+  height: 50px; /* Set row height */
 }

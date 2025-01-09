@@ -51,10 +51,14 @@ const EventCatagory = () => {
 
                 <div className="row g-5">
 
-                    <EventCard cardInfo={cardInfo[0]} />
+                    {cardInfo.map((card, index) => (
+                        <EventCard key={index} cardInfo={card} />
+                    ))  }
+
+                    {/* <EventCard cardInfo={cardInfo[0]} />
                     <EventCard cardInfo={cardInfo[1]} />
                     <EventCard cardInfo={cardInfo[2]} />
-                    <EventCard cardInfo={cardInfo[3]} />
+                    <EventCard cardInfo={cardInfo[3]} /> */}
 
                 </div>
 

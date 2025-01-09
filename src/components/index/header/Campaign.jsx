@@ -12,17 +12,20 @@ const Campaign = () => {
 
                                     <div className="content mx-3">
                                         <a className="rbt-btn-link color-white" href="#">
-                                            <span>+92304-4205067<i className="feather-arrow-right"></i></span>
+                                            <span>+92304-4205067
+                                                {/* <i className="feather-arrow-right"></i> */}
+                                            </span>
                                         </a>
                                     </div>
                                     <div className="content mx-3">
                                         <a className="rbt-btn-link color-white" href="#">
-                                            <span>info@technsol.com <i className="feather-arrow-right"></i></span>
+                                            <span>info@tecnsol.com </span>
+                                            {/* <i className="feather-arrow-right"></i> */}
                                         </a>
                                     </div>
                                     <div className="content mx-3">
                                         <a className="rbt-btn-link color-white" href="#">
-                                            <span>Inquiry Form <i className="feather-arrow-right"></i></span>
+                                            <span>Inquiry Form </span>
                                         </a>
                                     </div>
                                 </div>
@@ -30,12 +33,12 @@ const Campaign = () => {
                                 <div className="inner justify-content-between">
                                     <div className="content mx-3">
                                         <a className="rbt-btn-link color-white" href="#">
-                                            <span>Upcoming Batches <i className="feather-arrow-right"></i></span>
+                                            <span>Upcoming Batches</span>
                                         </a>
                                     </div>
                                     <div className="content mx-3">
                                         <a className="rbt-btn-link color-white" href="#">
-                                            <span>Fee Structure <i className="feather-arrow-right"></i></span>
+                                            <span>Pay Now</span>
                                         </a>
                                     </div>
                                 </div>

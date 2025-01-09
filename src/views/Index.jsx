@@ -8,6 +8,7 @@ import TeamCatagory from "../components/index/team-catagory/TeamCatagory"
 import Testimonials from "../components/index/testimonial-catagory/Testimonials"
 import Brochure from "../components/index/brochure/Brocher"
 import SuccessGuide from "../components/index/startbanner/SuccessGuide"
+import SuccessStep from "../components/index/success-step/SuccessStep"
 
 
 
@@ -20,12 +21,13 @@ const Index = () => {
                 <Banner />
             </div>
     
-            <SuccessGuide />
+            {/* <SuccessGuide /> */}
+            <SuccessStep />
             <PopularCourses />
-            <CourseCatagory />
-            <Brochure />
+            {/* <CourseCatagory /> */}
             {/* <TeamCatagory /> */}
             <Testimonials />
+            <Brochure />
             <EventCatagory />
             {/* <BlogCatagory /> */}
             {/* <Footer /> */}

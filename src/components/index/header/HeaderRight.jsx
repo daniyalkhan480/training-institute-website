@@ -5,7 +5,7 @@ const HeaderRight = () => {
     <div className="header-right">
         <div className="rbt-btn-wrapper d-none d-xl-block">
             <a className="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none" href="#">
-                <span data-text="Join Now">Apply Now</span>
+                <span data-text="Apply Now">Apply Now</span>
             </a>
         </div>
 

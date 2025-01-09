@@ -15,10 +15,24 @@ const Banner = () => {
                                 <div className="inner">
                                     <div className='row'>
                                         <div className='col-lg-8'>
-                                        <div className="rbt-new-badge rbt-new-badge-one mb--30">
-                                            <span className="rbt-new-badge-icon">🏆</span> Planning a career?
-                                        </div>
+                                            <div className="rbt-new-badge rbt-new-badge-one mb--30">
+                                                <span className="rbt-new-badge-icon">🏆</span> Planning a career?
+                                            </div>
                                             <h1 className="title">Learn from <span className="theme-gradient">industry experts</span> with us </h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                                            <div className="buttons d-flex justify-content-center">
+                                                <div className="rbt-btn-wrapper d-none d-xl-block mx-5">
+                                                    <a className="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none" href="#">
+                                                        <span data-text="Free Demo">Free Demo</span>
+                                                    </a>
+                                                </div>
+                                                <div className="rbt-btn-wrapper d-none d-xl-block">
+                                                    <a className="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none" href="#">
+                                                        <span data-text="Download Brochure">Download Brochure</span>
+                                                        <i className="feather-arrow-down"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div className='col-lg-4'>
                                             New Items
@@ -36,19 +50,19 @@ const Banner = () => {
                     {/* <div className="swiper service-item-3-activation  rbt-arrow-between gutter-swiper-30">
 
                         <div className="row swiper-wrapper banner" > */}
-                            {/* cards Components */}
+                    {/* cards Components */}
 
-                            {/* <BannerCard label="Step 1" text="Counselling The Institute" num={1} />
+                    {/* <BannerCard label="Step 1" text="Counselling The Institute" num={1} />
                             <BannerCard label="Step 2" text="Get Admission" num={1} />
                             <BannerCard label="Step 3" text="Physical Classes" num={1} />
                             <BannerCard label="Step 4" text="Become Expert" num={1} /> */}
-                            {/* <BannerCard label="Step 5" num={1} />
+                    {/* <BannerCard label="Step 5" num={1} />
                             <BannerCard label="Step 6" num={1} /> */}
 
-                        {/* </div> */}
+                    {/* </div> */}
 
 
-{/* 
+                    {/* 
                         <div className="rbt-swiper-arrow rbt-arrow-left">
                             <div className="custom-overfolow">
                                 <i className="rbt-icon feather-arrow-left"></i>

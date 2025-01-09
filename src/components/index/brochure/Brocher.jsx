@@ -14,22 +14,11 @@ const Brochure = () => {
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-12 col-12 text-start text-sm-end">
-                        {/* <form action="#" className="newsletter-form-1 me-0">
-                            <input type="email" placeholder="Enter Your E-Email" />
-                            <button type="submit" className="rbt-btn btn-md btn-gradient hover-icon-reverse">
-                                <span className="icon-reverse-wrapper">
-                                    <span className="btn-text">Subscribe</span>
-                                    <span className="btn-icon"><i className="feather-arrow-right"></i></span>
-                                    <span className="btn-icon"><i className="feather-arrow-right"></i></span>
-                                </span>
-                            </button>
-                        </form> */}
-
                         <button type="submit" className="rbt-btn btn-md btn-gradient hover-icon-reverse">
                             <span className="icon-reverse-wrapper">
                                 <span className="btn-text">Download Brochure</span>
-                                <span className="btn-icon"><i className="feather-arrow-right"></i></span>
-                                <span className="btn-icon"><i className="feather-arrow-right"></i></span>
+                                <span className="btn-icon"><i className="feather-arrow-down"></i></span>
+                                <span className="btn-icon"><i className="feather-arrow-down"></i></span>
                             </span>
                         </button>
                     </div>

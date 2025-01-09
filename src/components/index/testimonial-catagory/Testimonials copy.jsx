@@ -25,8 +25,6 @@ const cardInfo = [
 
 ];
 
-const halfLength = Math.ceil(ReviewCardInfo.length / 2);
-
 
 const Testimonials = () => {
     return (
@@ -46,31 +44,7 @@ const Testimonials = () => {
 
 
                 {/* ReviewCards Sections */}
-
-                {Array.from({ length: 2 }).map((_, containerIndex) => (
-                    <div key={containerIndex} className="scroll-container">
-                        <div className={`d-flex justify-content-evenly scroll-content-${containerIndex === 0 ? 'left' : 'right'}`}>
-                            {ReviewCardInfo.slice(
-                                containerIndex * halfLength,
-                                (containerIndex + 1) * halfLength
-                            ).map((info, index) => (
-                                <ReviewCard key={`${containerIndex}-${index}`} cardInfo={info} />
-                            ))}
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div>
-    )
-}
-
-export default Testimonials
-
-
-
-
-
-         {/* <div className="scroll-container">
+                <div className="scroll-container">
                     <div className="d-flex justify-content-evenly scroll-content-left">
                         {ReviewCardInfo.map((info, index) => (
                             <ReviewCard key={`left-${index}`} cardInfo={info} />
@@ -83,4 +57,42 @@ export default Testimonials
                             <ReviewCard key={`right-${index}`} cardInfo={info} />
                         ))}
                     </div>
-                </div> */}
+                </div>
+                {/* Card Section */}
+                {/* <div className="row g-5">
+                    <div className="col-lg-6">
+                        <div className="rbt-accordion-style rbt-accordion-01  accordion">
+                            <div className="accordion" id="accordionExamplea1">
+                                <TestimonialCard cardInfo={cardInfo[0]} />
+                                <TestimonialCard cardInfo={cardInfo[1]} />
+                                <TestimonialCard cardInfo={cardInfo[2]} />
+                            </div>
+                        </div>
+                    </div> */}
+
+
+                {/* wiper testimonial-activation-1 */}
+                {/* <div className="col-lg-6">
+                        <div className="swiper testimonial-activation-1 rbt-dot-bottom-left pb--60">
+                            <div className="swiper-wrapper">
+                                <SwiperSlide />
+                            </div>
+
+                            <div className="rbt-swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                <span className="swiper-pagination-bullet" tabIndex="0" role="button" aria-label="Go to slide 1"></span>
+                                <span className="swiper-pagination-bullet swiper-pagination-bullet-active" tabIndex="0" role="button"
+                                    aria-label="Go to slide 2" aria-current="true">
+                                </span>
+                                <span className="swiper-pagination-bullet" tabIndex="0" role="button" aria-label="Go to slide 3"></span>
+                            </div>
+
+                            
+                        </div>
+                    </div> */}
+                {/* </div> */}
+            </div>
+        </div>
+    )
+}
+
+export default Testimonials
