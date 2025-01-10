@@ -6,7 +6,7 @@ const AllCardData = [
     label: "all-tab",
     cards: [
       {
-        imageUrl: "assets/images/course/course-online-01.jpg",
+        imageUrl: "/assets/images/course/course-online-01.jpg",
         title: "React Front To Back",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -17,7 +17,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-02.jpg",
+        imageUrl: "/assets/images/course/course-online-02.jpg",
         title: "PHP Beginner Advanced",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -28,7 +28,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-03.jpg",
+        imageUrl: "/assets/images/course/course-online-03.jpg",
         title: "Angular Zero to Mastery",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -39,7 +39,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-04.jpg",
+        imageUrl: "/assets/images/course/course-online-04.jpg",
         title: "Web Front To Back",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -50,7 +50,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-05.jpg",
+        imageUrl: "/assets/images/course/course-online-05.jpg",
         title: "SQL Beginner Advanced",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -61,7 +61,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-06.jpg",
+        imageUrl: "/assets/images/course/course-online-06.jpg",
         title: "JS Zero to Mastery",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -80,7 +80,7 @@ const AllCardData = [
     label: "web-tab",
     cards: [
       {
-        imageUrl: "assets/images/course/course-online-01.jpg",
+        imageUrl: "/assets/images/course/course-online-01.jpg",
         title: "React Front To Back",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -91,7 +91,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-02.jpg",
+        imageUrl: "/assets/images/course/course-online-02.jpg",
         title: "PHP Beginner Advanced",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -102,7 +102,7 @@ const AllCardData = [
         card2: true
       },
       {
-        imageUrl: "assets/images/course/course-online-03.jpg",
+        imageUrl: "/assets/images/course/course-online-03.jpg",
         title: "Angular Zero to Mastery",
         link: "course-details.html",
         duration: "12 Weeks",
@@ -120,7 +120,7 @@ const AllCardData = [
     label: "graphic-tab",
     cards: [
       {
-        imageUrl: "assets/images/course/course-online-02.jpg",
+        imageUrl: "/assets/images/course/course-online-02.jpg",
         title: "PHP Beginner Advanced",
         link: "course-details.html",
         currentPrice: "$60",
@@ -131,7 +131,7 @@ const AllCardData = [
         paced: "Self-paced" // Assuming a default value if not specified
       },
       {
-        imageUrl: "assets/images/course/course-online-03.jpg",
+        imageUrl: "/assets/images/course/course-online-03.jpg",
         title: "Angular Zero to Mastery",
         link: "course-details.html",
         currentPrice: "$80",
@@ -150,7 +150,7 @@ const AllCardData = [
     label: "video-tab",
     cards: [
       {
-        imageUrl: "assets/images/course/course-online-02.jpg",
+        imageUrl: "/assets/images/course/course-online-02.jpg",
         title: "PHP Beginner Advanced",
         link: "course-details.html",
         currentPrice: "$60",
@@ -161,7 +161,7 @@ const AllCardData = [
         paced: "Self-paced" // Assuming a default value if not specified
       },
       {
-        imageUrl: "assets/images/course/course-online-03.jpg",
+        imageUrl: "/assets/images/course/course-online-03.jpg",
         title: "Angular Zero to Mastery",
         link: "course-details.html",
         currentPrice: "$80",
@@ -180,7 +180,7 @@ const AllCardData = [
     label: "hot-tab",
     cards: [
       {
-        imageUrl: "assets/images/course/course-online-02.jpg",
+        imageUrl: "/assets/images/course/course-online-02.jpg",
         title: "PHP Beginner Advanced",
         link: "course-details.html",
         currentPrice: "$60",
@@ -191,7 +191,7 @@ const AllCardData = [
         paced: "Self-paced" // Assuming a default value if not specified
       },
       {
-        imageUrl: "assets/images/course/course-online-03.jpg",
+        imageUrl: "/assets/images/course/course-online-03.jpg",
         title: "Angular Zero to Mastery",
         link: "course-details.html",
         currentPrice: "$80",

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Campaign = () => {
     return (
         <div className="rbt-header-campaign rbt-header-campaign-1 rbt-header-top-news bg-image1">
@@ -32,9 +32,9 @@ const Campaign = () => {
 
                                 <div className="inner justify-content-between">
                                     <div className="content mx-3">
-                                        <a className="rbt-btn-link color-white" href="#">
+                                        <Link className="rbt-btn-link color-white" to="/up-batches">
                                             <span>Upcoming Batches</span>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="content mx-3">
                                         <a className="rbt-btn-link color-white" href="#">

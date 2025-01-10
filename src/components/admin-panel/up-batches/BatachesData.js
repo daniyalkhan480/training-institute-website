@@ -8,7 +8,8 @@ const BatachesData = [
       days: "Thu - Fri - Sat",
       fees: "PKR 18,000",
       rating: "1.05",
-      reviews: "1,196 Reviews"
+      reviews: "1,196 Reviews",
+      link: "/admin-panel/up-batches/it-office"
     },
     {
       course: "Web Designing",
@@ -19,7 +20,8 @@ const BatachesData = [
       days: "Thu - Fri - Sat",
       fees: "PKR 20,000",
       rating: "1.17",
-      reviews: "3,018 Reviews"
+      reviews: "3,018 Reviews",
+      link: "/admin-panel/up-batches/web-designing"
     },
     {
       course: "Web Development",
@@ -30,7 +32,8 @@ const BatachesData = [
       days: "Thu - Fri - Sat",
       fees: "PKR 30,000",
       rating: "1.17",
-      reviews: "3,056 Reviews"
+      reviews: "3,056 Reviews",
+      link: "/admin-panel/up-batches/web-development"
     },
     {
       course: "Video Editing",
@@ -41,7 +44,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed",
       fees: "PKR 15,000",
       rating: "1.01",
-      reviews: "1,606 Reviews"
+      reviews: "1,606 Reviews",
+      link: "/admin-panel/up-batches/video-editing"
     },
     {
       course: "IT Office",
@@ -52,7 +56,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed",
       fees: "PKR 18,000",
       rating: "1.05",
-      reviews: "1,196 Reviews"
+      reviews: "1,196 Reviews",
+      link: "/admin-panel/up-batches/it-office"
     },
     {
       course: "MERN Stack",
@@ -63,7 +68,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed",
       fees: "PKR 40,000",
       rating: "1.01",
-      reviews: "371 Reviews"
+      reviews: "371 Reviews",
+      link: "/admin-panel/up-batches/mern-stack"
     },
     {
       course: "Python Development",
@@ -74,7 +80,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed",
       fees: "PKR 20,000",
       rating: "1",
-      reviews: "603 Reviews"
+      reviews: "603 Reviews",
+      link: "/admin-panel/up-batches/python-development"
     },
     {
       course: "Graphic Designing",
@@ -85,7 +92,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed - Thu",
       fees: "PKR 20,000",
       rating: "1.13",
-      reviews: "2,142 Reviews"
+      reviews: "2,142 Reviews",
+      link: "/admin-panel/up-batches/graphic-designing"
     },
     {
       course: "Android Apps Programming",
@@ -96,7 +104,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed",
       fees: "PKR 25,000",
       rating: "1.06",
-      reviews: "962 Reviews"
+      reviews: "962 Reviews",
+      link: "/admin-panel/up-batches/android-apps-programming"
     },
     {
       course: "Mastering Data Science with Python",
@@ -107,7 +116,8 @@ const BatachesData = [
       days: "Sat - Sun",
       fees: "PKR 60,000",
       rating: "4",
-      reviews: "64 Reviews"
+      reviews: "64 Reviews",
+      link: "/admin-panel/up-batches/mastering-data-science-with-python"
     },
     {
       course: "Java",
@@ -118,7 +128,8 @@ const BatachesData = [
       days: "Mon - Tue - Wed",
       fees: "PKR 15,000",
       rating: "1.04",
-      reviews: "789 Reviews"
+      reviews: "789 Reviews",
+      link: "/admin-panel/up-batches/java"
     }
   ];
 

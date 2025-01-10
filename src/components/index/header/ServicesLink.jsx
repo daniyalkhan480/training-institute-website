@@ -25,7 +25,7 @@ const ServicesLink = () => {
       <ul className="submenu">
 
         {servicesLinkObj.map((service, index) => (
-                <li><a href={service.link}>{service.title}</a></li>
+                <li key={index}><a href={service.link}>{service.title}</a></li>
         ))}
 
       </ul>
